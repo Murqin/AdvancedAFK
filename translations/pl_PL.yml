@@ -1,0 +1,22 @@
+# AdvancedAFK Plik Językowy - Polski (PL)
+# Polskie tłumaczenie
+
+prefix: "&8[&6AFK&8] "
+
+# Wiadomości rozgłoszeniowe
+afk-enter: "&e%player% &7jest teraz AFK%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7nie jest już AFK."
+
+# Wiadomości wysyłane do gracza AFK
+afk-self-enter: "&aJesteś teraz AFK. Rusz myszką, kucnij lub wejdź w interakcję, aby wyjść."
+afk-self-exit: "&eNie jesteś już AFK."
+
+# Wiadomości poleceń
+cooldown: "&cMusisz poczekać &e%seconds% &csekund, zanim użyjesz tej komendy ponownie."
+reload-success: "&aKonfiguracja i pliki językowe zostały przeładowane!"
+no-permission: "&cNie masz uprawnień do użycia tej komendy."
+player-only: "&cTa komenda może być używana tylko przez graczy."
+
+# Format czasu
+time-format: "%minutes%m %seconds%s"

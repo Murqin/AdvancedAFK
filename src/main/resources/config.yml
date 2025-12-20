@@ -1,0 +1,96 @@
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║                  AdvancedAFK Configuration                       ║
+# ║                        by Murqin                                  ║
+# ╚══════════════════════════════════════════════════════════════════╝
+
+# ─────────────────────────────────────────────────────────────────────
+# LANGUAGE SETTING
+# Available: en_US, tr_TR (or create your own in lang/ folder)
+# ─────────────────────────────────────────────────────────────────────
+language: en_US
+
+# ─────────────────────────────────────────────────────────────────────
+# AUTO-AFK
+# Automatically set players AFK after inactivity
+# ─────────────────────────────────────────────────────────────────────
+auto-afk:
+  enabled: true
+  # Minutes of inactivity before auto-AFK
+  timeout-minutes: 5
+
+# ─────────────────────────────────────────────────────────────────────
+# AUTO-KICK
+# Kick players who are AFK for too long (useful when server is full)
+# ─────────────────────────────────────────────────────────────────────
+auto-kick:
+  enabled: false
+  # Minutes of AFK time before kick
+  timeout-minutes: 30
+  # Only kick when server has this many or more players online
+  min-players-online: 0
+  # Players with this permission won't be kicked: advancedafk.bypass.kick
+
+# ─────────────────────────────────────────────────────────────────────
+# EXIT TRIGGERS
+# What actions should remove AFK status
+# Disable any trigger to prevent that action from exiting AFK
+# ─────────────────────────────────────────────────────────────────────
+triggers:
+  # Looking around (mouse movement)
+  mouse-movement: true
+  # Pressing shift/sneak
+  sneak: true
+  # Right/left click interaction
+  interact: true
+  # Sending a chat message
+  chat: true
+  # Running any command (except /afk)
+  command: true
+  # Opening inventory
+  inventory: true
+
+# ─────────────────────────────────────────────────────────────────────
+# GOD MODE PROTECTION
+# Protect AFK players from damage and movement
+# ─────────────────────────────────────────────────────────────────────
+protection:
+  # Master toggle for all protection features
+  enabled: true
+  # Cancel all damage to AFK players
+  prevent-damage: true
+  # Cancel knockback from entities
+  prevent-knockback: true
+  # Lock player position (prevent push/movement)
+  lock-position: true
+
+# ─────────────────────────────────────────────────────────────────────
+# TAB LIST
+# Show [AFK] prefix in player list
+# ─────────────────────────────────────────────────────────────────────
+tab-list:
+  enabled: true
+  # Prefix shown before AFK player names
+  afk-prefix: "&7[&cAFK&7] "
+
+# ─────────────────────────────────────────────────────────────────────
+# SOUNDS
+# Play sounds when entering/exiting AFK
+# Sound list: https://minecraft.wiki/w/Sounds.json
+# ─────────────────────────────────────────────────────────────────────
+sounds:
+  afk-enter:
+    enabled: true
+    sound: BLOCK_NOTE_BLOCK_PLING
+    volume: 0.5
+    pitch: 0.5
+  afk-exit:
+    enabled: true
+    sound: BLOCK_NOTE_BLOCK_PLING
+    volume: 0.5
+    pitch: 1.0
+
+# ─────────────────────────────────────────────────────────────────────
+# COMMAND SETTINGS
+# ─────────────────────────────────────────────────────────────────────
+# Cooldown in seconds between /afk uses (0 to disable)
+command-cooldown: 3

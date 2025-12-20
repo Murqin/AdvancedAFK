@@ -1,0 +1,22 @@
+# AdvancedAFK File di Lingua - Italiano (IT)
+# Traduzione italiana
+
+prefix: "&8[&6AFK&8] "
+
+# Messaggi di broadcast
+afk-enter: "&e%player% &7è ora AFK%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7non è più AFK."
+
+# Messaggi inviati al giocatore AFK
+afk-self-enter: "&aOra sei AFK. Muovi il mouse, accovacciati o interagisci per uscire."
+afk-self-exit: "&eNon sei più AFK."
+
+# Messaggi di comando
+cooldown: "&cDevi aspettare &e%seconds% &csecondi prima di usare questo comando di nuovo."
+reload-success: "&aConfigurazione e file di lingua ricaricati!"
+no-permission: "&cNon hai il permesso di usare questo comando."
+player-only: "&cQuesto comando può essere usato solo dai giocatori."
+
+# Formato del tempo
+time-format: "%minutes%m %seconds%s"

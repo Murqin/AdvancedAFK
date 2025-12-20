@@ -1,0 +1,22 @@
+# AdvancedAFK Taalbestand - Nederlands (NL)
+# Nederlandse vertaling
+
+prefix: "&8[&6AFK&8] "
+
+# Broadcast berichten
+afk-enter: "&e%player% &7is nu AFK%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7is niet meer AFK."
+
+# Berichten naar de AFK-speler
+afk-self-enter: "&aJe bent nu AFK. Beweeg je muis, hurk of interacteer om te stoppen."
+afk-self-exit: "&eJe bent niet meer AFK."
+
+# Opdracht berichten
+cooldown: "&cJe moet &e%seconds% &cseconden wachten voordat je deze opdracht opnieuw kunt gebruiken."
+reload-success: "&aConfiguratie en taalbestanden herladen!"
+no-permission: "&cJe hebt geen toestemming om deze opdracht te gebruiken."
+player-only: "&cDeze opdracht kan alleen door spelers worden gebruikt."
+
+# Tijdformaat
+time-format: "%minutes%m %seconds%s"

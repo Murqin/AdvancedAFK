@@ -1,0 +1,45 @@
+# AdvancedAFK Language Template
+# 
+# HOW TO CREATE A CUSTOM TRANSLATION:
+# 1. Copy this file to your server's plugins/AdvancedAFK/lang/ folder
+# 2. Rename it to your locale code (e.g., de_DE.yml, fr_FR.yml, es_ES.yml)
+# 3. Translate all values (keep the keys unchanged!)
+# 4. Set "language: your_locale" in config.yml
+# 5. Run /afkreload or restart the server
+#
+# PLACEHOLDERS:
+# %player%  - Player name
+# %reason%  - AFK reason (if provided)
+# %seconds% - Seconds remaining (for cooldown)
+# %minutes% - Minutes (for time format)
+#
+# COLOR CODES:
+# Use & for color codes (e.g., &a = green, &c = red, &e = yellow)
+# Full list: https://minecraft.wiki/w/Formatting_codes
+#
+# LOCALE CODE FORMAT:
+# Use ISO 639-1 language code + ISO 3166-1 country code
+# Examples: en_US, en_GB, de_DE, fr_FR, es_ES, pt_BR, ru_RU, zh_CN, ja_JP, ko_KR
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Message prefix (appears before all messages)
+prefix: "&8[&6AFK&8] "
+
+# Broadcast messages (sent to all players)
+afk-enter: "&e%player% &7is now AFK%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7is no longer AFK."
+
+# Messages sent only to the AFK player
+afk-self-enter: "&aYou are now AFK. Move your mouse, sneak, or interact to exit."
+afk-self-exit: "&eYou are no longer AFK."
+
+# Command feedback messages
+cooldown: "&cYou must wait &e%seconds% &cseconds before using this command again."
+reload-success: "&aConfiguration and language files reloaded!"
+no-permission: "&cYou don't have permission to use this command."
+player-only: "&cThis command can only be used by players."
+
+# Time format for PlaceholderAPI (%advancedafk_time%)
+# %minutes% and %seconds% are replaced with actual values
+time-format: "%minutes%m %seconds%s"

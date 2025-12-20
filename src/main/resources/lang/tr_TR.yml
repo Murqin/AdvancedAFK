@@ -1,0 +1,26 @@
+# AdvancedAFK Dil Dosyası - Türkçe (TR)
+# Kendi çevirilerinizi bu dosyayı kopyalayarak yapabilirsiniz
+
+prefix: "&8[&6AFK&8] "
+
+# Yayın mesajları
+afk-enter: "&e%player% &7artık AFK%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7artık AFK değil."
+
+# AFK oyuncuya gönderilen mesajlar
+afk-self-enter: "&aAFK moduna girdin. Fare hareketi, eğilme veya etkileşim ile çıkabilirsin."
+afk-self-exit: "&eAFK modundan çıktın."
+
+# Komut mesajları
+cooldown: "&cBu komutu tekrar kullanmak için &e%seconds% &csaniye beklemelisin."
+reload-success: "&aYapılandırma ve dil dosyaları yeniden yüklendi!"
+no-permission: "&cBu komutu kullanma iznin yok."
+player-only: "&cBu komutu sadece oyuncular kullanabilir."
+
+# Kick mesajları
+kick-reason: "&cÇok uzun süre AFK kaldığın için atıldın."
+kick-broadcast: "&e%player% &7çok uzun süre AFK kaldığı için atıldı."
+
+# Zaman formatı (placeholders'da kullanılır)
+time-format: "%minutes%dk %seconds%sn"

@@ -1,0 +1,35 @@
+name: AdvancedAFK
+version: ${project.version}
+main: dev.murqin.advancedafk.AdvancedAFK
+api-version: '1.21'
+authors:
+  - Murqin
+description: |
+  Advanced AFK plugin with god mode protection.
+  Features: multi-language, configurable triggers, PlaceholderAPI support.
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  afk:
+    description: Toggle AFK mode
+    usage: /afk [reason]
+    aliases:
+      - away
+  afkreload:
+    description: Reload AdvancedAFK configuration
+    usage: /afkreload
+
+permissions:
+  advancedafk.use:
+    description: Allows using the /afk command
+    default: true
+  advancedafk.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  advancedafk.bypass.cooldown:
+    description: Bypass the command cooldown
+    default: op
+  advancedafk.bypass.kick:
+    description: Bypass auto-kick when AFK too long
+    default: op

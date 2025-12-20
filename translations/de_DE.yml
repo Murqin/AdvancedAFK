@@ -1,0 +1,22 @@
+# AdvancedAFK Sprachdatei - Deutsch (DE)
+# Deutsche Übersetzung
+
+prefix: "&8[&6AFK&8] "
+
+# Broadcast-Nachrichten
+afk-enter: "&e%player% &7ist jetzt AFK%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7ist nicht mehr AFK."
+
+# Nachrichten an den AFK-Spieler
+afk-self-enter: "&aDu bist jetzt AFK. Bewege deine Maus, schleiche oder interagiere, um den AFK-Modus zu verlassen."
+afk-self-exit: "&eDu bist nicht mehr AFK."
+
+# Befehlsnachrichten
+cooldown: "&cDu musst &e%seconds% &cSekunden warten, bevor du diesen Befehl erneut verwenden kannst."
+reload-success: "&aKonfiguration und Sprachdateien wurden neu geladen!"
+no-permission: "&cDu hast keine Berechtigung, diesen Befehl zu verwenden."
+player-only: "&cDieser Befehl kann nur von Spielern verwendet werden."
+
+# Zeitformat
+time-format: "%minutes%m %seconds%s"

@@ -1,0 +1,22 @@
+# AdvancedAFK Dil Dosyası - Ukraynaca (UA)
+# Українська переклад
+
+prefix: "&8[&6AFK&8] "
+
+# Широкомовні повідомлення
+afk-enter: "&e%player% &7тепер AFK%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7більше не AFK."
+
+# Повідомлення для AFK-гравця
+afk-self-enter: "&aВи тепер AFK. Рухайте мишею, присідайте або взаємодійте, щоб вийти."
+afk-self-exit: "&eВи більше не AFK."
+
+# Повідомлення команд
+cooldown: "&cВи повинні почекати &e%seconds% &cсекунд, перш ніж використовувати цю команду знову."
+reload-success: "&aКонфігурацію та мовні файли перезавантажено!"
+no-permission: "&cВи не маєте дозволу на використання цієї команди."
+player-only: "&cЦя команда може бути використана лише гравцями."
+
+# Формат часу
+time-format: "%minutes%хв %seconds%с"

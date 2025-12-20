@@ -1,0 +1,26 @@
+# AdvancedAFK Language File - English (US)
+# You can create custom translations by copying this file
+
+prefix: "&8[&6AFK&8] "
+
+# Broadcast messages
+afk-enter: "&e%player% &7is now AFK%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7is no longer AFK."
+
+# Messages sent to the AFK player
+afk-self-enter: "&aYou are now AFK. Move your mouse, sneak, or interact to exit."
+afk-self-exit: "&eYou are no longer AFK."
+
+# Command messages
+cooldown: "&cYou must wait &e%seconds% &cseconds before using this command again."
+reload-success: "&aConfiguration and language files reloaded!"
+no-permission: "&cYou don't have permission to use this command."
+player-only: "&cThis command can only be used by players."
+
+# Kick messages
+kick-reason: "&cYou were kicked for being AFK too long."
+kick-broadcast: "&e%player% &7was kicked for being AFK too long."
+
+# Time format (used in placeholders)
+time-format: "%minutes%m %seconds%s"

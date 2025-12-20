@@ -1,0 +1,22 @@
+# AdvancedAFK 语言文件 - 简体中文 (CN)
+# 简体中文翻译
+
+prefix: "&8[&6AFK&8] "
+
+# 广播消息
+afk-enter: "&e%player% &7现在处于AFK状态%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7不再处于AFK状态。"
+
+# 发送给AFK玩家的消息
+afk-self-enter: "&a你现在处于AFK状态。移动鼠标、蹲下或互动即可退出。"
+afk-self-exit: "&e你已退出AFK状态。"
+
+# 命令消息
+cooldown: "&c你需要等待 &e%seconds% &c秒才能再次使用此命令。"
+reload-success: "&a配置和语言文件已重新加载！"
+no-permission: "&c你没有权限使用此命令。"
+player-only: "&c此命令只能由玩家使用。"
+
+# 时间格式
+time-format: "%minutes%分 %seconds%秒"

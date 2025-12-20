@@ -1,0 +1,22 @@
+# AdvancedAFK 言語ファイル - 日本語 (JP)
+# 日本語翻訳
+
+prefix: "&8[&6AFK&8] "
+
+# ブロードキャストメッセージ
+afk-enter: "&e%player% &7がAFKになりました%reason%"
+afk-enter-reason: "&7: &f%reason%"
+afk-exit: "&e%player% &7はもうAFKではありません。"
+
+# AFKプレイヤーへのメッセージ
+afk-self-enter: "&aAFKモードになりました。マウスを動かす、しゃがむ、または操作で解除できます。"
+afk-self-exit: "&eAFKモードを解除しました。"
+
+# コマンドメッセージ
+cooldown: "&cこのコマンドを再度使用するには &e%seconds% &c秒待つ必要があります。"
+reload-success: "&a設定と言語ファイルを再読み込みしました！"
+no-permission: "&cこのコマンドを使用する権限がありません。"
+player-only: "&cこのコマンドはプレイヤーのみ使用できます。"
+
+# 時間フォーマット
+time-format: "%minutes%分 %seconds%秒"
