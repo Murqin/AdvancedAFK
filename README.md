@@ -13,7 +13,7 @@
 
 - **🛡️ God Mode Protection** - AFK players take no damage and cannot be pushed
 - **⏰ Auto-AFK & Auto-Kick** - Automatic AFK detection and optional kick for long AFK
-- **🌍 Multi-Language Support** - Built-in English & Turkish + 12 community translations
+- **🌍 Multi-Language Support** - Built-in English & Turkish + 12 machine translations
 - **⚙️ Configurable Triggers** - Choose what actions exit AFK mode
 - **📊 PlaceholderAPI Support** - Display AFK status anywhere
 - **📈 bStats Analytics** - Anonymous usage statistics
