@@ -9,6 +9,11 @@
 
 **Advanced AFK plugin for Paper servers** with god mode protection, auto-kick, multi-language support, and fully configurable triggers.
 
+# Note
+
+- **The coding of this Plugin was done entirely by AI.**
+- **If some people have security concerns about this project because it involves AI, and they understand security, they can contribute to this project. I generally insist that the code should comply with S.O.L.I.D. to make it readable and to make it easy to add features. I think the code is readable.**
+
 ## ✨ Features
 
 - **🛡️ God Mode Protection** - AFK players take no damage and cannot be pushed
