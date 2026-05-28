@@ -33,7 +33,7 @@ Choose exactly what actions should remove AFK status:
 
 ### 🌍 Multi-Language Support
 - Built-in **English** and **Turkish** languages.
-- **12 community translations** available on GitHub.
+- **12 machine translations** available on GitHub.
 - Easily add your own translations.
 - All messages are fully customizable.
 
