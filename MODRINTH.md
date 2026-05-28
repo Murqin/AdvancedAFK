@@ -68,8 +68,8 @@ Anonymous usage statistics to help improve the plugin.
 
 ## ⚡ Requirements
 
-- **Paper 1.21+** (or compatible fork)
-- **Java 21+**
+- **Paper 26.1+** (or compatible fork)
+- **Java 25+**
 - **PlaceholderAPI** (optional, for placeholders)
 
 ---
