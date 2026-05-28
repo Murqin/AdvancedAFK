@@ -1,7 +1,7 @@
 name: AdvancedAFK
 version: ${project.version}
 main: dev.murqin.advancedafk.AdvancedAFK
-api-version: '1.21'
+api-version: '26.1'
 authors:
   - Murqin
 description: |
