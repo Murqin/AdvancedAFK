@@ -105,7 +105,7 @@ To apply a language configuration, update the property inside `config.yml`:
 language: en_US  # e.g., tr_TR for Turkish
 ```
 Create custom translation bundles by duplicating `lang/en_US.yml` to `lang/YOUR_LOCALE.yml`. 
-*Supported community-translated locales:* German, French, Spanish, Portuguese, Russian, Chinese, Japanese, Korean, Italian, Dutch, Polish, Ukrainian.
+*Supported machine-translated locales:* German, French, Spanish, Portuguese, Russian, Chinese, Japanese, Korean, Italian, Dutch, Polish, Ukrainian.
 
 ---
 
